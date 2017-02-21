@@ -6,7 +6,8 @@ The Hadoop ecosystem includes other tools to address particular needs. Hive is a
 
 # Hive
 
-Hive is a SQL-based data warehouse system for Hadoop that facilitates data summarization, ad hoc queries, and the analysis of large datasets stored in Hadoop-compatible file systems (e.g., HDFS, MapR-FS, and S3) and some NoSQL databases. The repo has instructions and sample programs for setting up Hive on your local system and well as on Docker.
+Hive is a SQL-based data warehouse system for Hadoop that facilitates data summarization, ad hoc queries, and the analysis of large datasets stored in Hadoop-compatible file systems (e.g., HDFS, MapR-FS, and S3) and some NoSQL databases. The repo has a tutorial, installation instructions and sample programs for setting up Hive on your local system and well as on Docker.
 
 # MongoDB
 
+MongoDB is a cross-platform, document oriented database that provides, high performance, high availability, and easy scalability. MongoDB works on concept of collection and document. MongoDB uses JSON-like documents with schemas. The repo has a tutorial, installation instructions and sample programs for setting up MongoDB on your local system.

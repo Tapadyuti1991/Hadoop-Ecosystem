@@ -4,10 +4,14 @@ Hadoop is an open source, Java-based programming framework that supports the pro
 
 The Hadoop ecosystem includes other tools to address particular needs. Hive is a SQL dialect and Pig is a dataflow language for that hide the tedium of creating MapReduce jobs behind higher-level abstractions more appropriate for user goals. 
 
-# Hive
+# Apache Hive
 
-Hive is a SQL-based data warehouse system for Hadoop that facilitates data summarization, ad hoc queries, and the analysis of large datasets stored in Hadoop-compatible file systems (e.g., HDFS, MapR-FS, and S3) and some NoSQL databases. The repo has a tutorial, installation instructions and sample programs for setting up Hive on your local system and well as on Docker.
+Hive is a SQL-based data warehouse system for Hadoop that facilitates data summarization, ad hoc queries, and the analysis of large datasets stored in Hadoop-compatible file systems (e.g., HDFS, MapR-FS, and S3) and some NoSQL databases. The repo has a tutorial, installation instructions and sample programs for setting up Hive on your local system as well as on Docker.
 
 # MongoDB
 
-MongoDB is a cross-platform, document oriented database that provides, high performance, high availability, and easy scalability. MongoDB works on concept of collection and document. MongoDB uses JSON-like documents with schemas. The repo has a tutorial, installation instructions and sample programs for setting up MongoDB on your local system.
+MongoDB is a cross-platform, document oriented database that provides, high performance, high availability, and easy scalability. MongoDB works on concept of collection and document. MongoDB uses JSON-like documents with schemas. The repo has a tutorial, sample programs and installation instructions for setting up MongoDB on your local system.
+
+# Apache Presto
+
+Data analytics is the process of analyzing raw data to gather relevant information for better decision making. It involves working with large amount of data.  As the size of data is continuously growing, we need a system which works efficiently with Petabyte size data with low latency. Facebook designed Apache Presto which is a distributed parallel query execution engine, optimized for low latency and interactive query analysis. The repo has a tutorial, sample programs and installation instructions for setting up Apache Presto on your local system and as well as on Docker. It also includes the differences between Hive and Presto and scenarios where each one is more suitable over the other.
